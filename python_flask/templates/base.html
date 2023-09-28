@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Mental Health Stats</title>
-    
-    <!-- Tailwind CSS via CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<title>Depression Age-adjusted Prevalence by County in HI</title>
 </head>
-
-<body class="bg-gray-200">
-
-    <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-2xl">Welcome to Mental Health Stats</h1>
-        <nav>
-            <ul class="flex space-x-4">
-                <li><a href="/" class="hover:underline">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-  <main class="p-4">
-    </main>
-
-    <p>{{ csv.head() }}</p>
-    
-    <footer class="bg-blue-600 text-white p-4 mt-6">
-        <p>© 2023 Mental Health Stats. All Rights Reserved.</p>
-    </footer>
+<body>
+<img src="data:image/png;base64,{{ image_base64 }}" />
 </body>
-
 </html>
